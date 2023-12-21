@@ -93,3 +93,158 @@ body {
   background: #15191e;
   overflow-x: hidden;
 }
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+  .btn1 {
+    display: none;
+    margin-left: -50px;
+  }
+  .header__btns{
+    margin-left: -220px;
+  }
+
+  .img1 {
+    display: none;
+    margin-left: 10px;
+  }
+  .header {
+    gap: 400px;
+    width: 500px;
+    justify-content: center;
+  }
+  .header__search {
+    display: none;
+    margin-left: -50px;
+  }
+
+  .header__logo{
+    margin-left: 50px;
+  }
+  .header__logo > h1 {
+    display: none;
+  }
+  .info__title {
+    font-size: 42px;
+    max-width: 330px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .info__content {
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .info__content-left {
+    text-align: left;
+    margin-left: 20px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    margin-bottom: 0;
+  }
+  .info__content-left p {
+    text-align: left;
+    margin-left: 25px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    margin-bottom: 0;
+    margin-bottom: 30px;
+  }
+
+  .info__content-left button {
+    margin-top: 20px;
+    width: 200px;
+    height: 60px;
+    margin-left: 75px;
+    margin-right: 25px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .info__content-left span::after {
+    content: "";
+    position: absolute;
+    top: 18px;
+    left: 150px;
+    width: 22px;
+    height: 22px;
+    background: url("./assets/img/explore-png.png") no-repeat;
+  }
+  .info__content-center {
+    width: 700px;
+    -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+            order: 0;
+    background: url("./assets/img/mobile/kristal-mobile.png") center no-repeat;
+    margin-top: -100px;
+    margin-bottom: -250px;
+    margin-left: -20px;
+  }
+  .info__content-right {
+    display: none;
+    margin-right: 0;
+  }
+  .tournaments__info-text h2 {
+    font-size: 18px;
+  }
+  .tournaments__info-text h1 {
+    font-size: 48px;
+  }
+  .tournaments__info-btn a {
+    margin-top: -50px;
+    width: 300px;
+    height: 70px;
+  }
+  .otherInfo > h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+  .otherInfo > h2 {
+    text-align: center;
+    font-size: 12px;
+  }
+  .otherInfo__team {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .otherInfo__team-co {
+    margin-left: 170px;
+  }
+  .otherInfo__team-co img {
+    border-radius: 12px;
+  }
+  .footer__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 10px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer__content-svgs {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}

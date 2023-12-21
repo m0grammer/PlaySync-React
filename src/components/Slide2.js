@@ -236,7 +236,7 @@ const Slide2 = () => {
                                 </div>
                             </div>
                             <div class="swiper-slide slideBlocked">
-                                <img src={Slider2} alt="" />
+                                <img src={Slider3} alt="" />
                                 <div
                                     class="swiper-slide-text2 swiper-slide-text"
                                 >
@@ -258,7 +258,7 @@ const Slide2 = () => {
                                 </div>
                             </div>
                             <div class="swiper-slide slideBlocked">
-                                <img src={Slider4} alt="" />
+                                <img src={Slider2} alt="" />
                                 <div
                                     class="swiper-slide-text4 swiper-slide-text"
                                 >
